@@ -9,3 +9,11 @@ Recall-Oriented Continual Learning with Generative Adversarial Meta-Model
 '''
 main.py --dataset='cifar10' --nb_cl_f=2 --nb_cl=2 --ts_epochs=120 --ts_lr=0.1  --lr_factor=0.1 --chunk_size=2000 --ra_lambda=5.0
 '''
+
+```c
+//```뒤에 자신이 원하는 언어 (생략 가능)
+#include <stdio.h>
+int main(void) {
+  printf("Hello World!");
+}
+```
