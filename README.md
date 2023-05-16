@@ -1,8 +1,12 @@
 # Recall-Oriented-CL-Framework
 Recall-Oriented Continual Learning with Generative Adversarial Meta-Model
+##Abstract
+The \textit{stability-plasticity} dilemma is a major challenge in continual learning, as it involves balancing the conflicting objectives of maintaining performance on previous tasks while learning new tasks. In this paper, we propose the \textit{recall-oriented continual learning framework} to address this challenge. Inspired by the human brain's ability to separate the mechanisms responsible for stability and plasticity, our framework consists of a two-level architecture where an inference network effectively acquires new knowledge and a generative network recalls past knowledge when necessary. In particular, to maximize the stability of past knowledge, we investigate the complexity of knowledge depending on different representations, and thereby introducing generative adversarial meta-model (GAMM) that incrementally trains task-specific learned parameters instead of input data samples of the task. Through our experiments, we show that our framework not only effectively learns new knowledge without any disruption but also achieves high stability of previous knowledge in both task-aware and task-agnostic incremental learning scenarios.
+
 <p align="center">
   <img src="https://github.com/haneol0415/recall-oriented-cl-framework/assets/61872888/f547bb26-916b-4cf9-98ca-0ff1ba83d229">
 </p>
+
 
 ## Experiment Command
 This repository currently contains experiments reported in the paper for Split CIFAR-10, Split CIFAR-100, Permuted MNIST, 5-Datasets.
