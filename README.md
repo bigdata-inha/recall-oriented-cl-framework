@@ -5,3 +5,4 @@ Recall-Oriented Continual Learning with Generative Adversarial Meta-Model
 </p>
 
 ## Experiment Command
+### CIFAR-10
