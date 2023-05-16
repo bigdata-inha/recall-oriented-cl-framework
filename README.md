@@ -8,7 +8,7 @@ Recall-Oriented Continual Learning with Generative Adversarial Meta-Model
 This repository currently contains experiments reported in the paper for Split CIFAR-10, Split CIFAR-100, Permuted MNIST, 5-Datasets.
 All these experiments can be run using the following command:
 ### Split CIFAR-10
-```python
+```
 python main.py --dataset='cifar10' --nb_cl_f=2 --nb_cl=2 --ts_epochs=120 --ts_lr=0.1  --lr_factor=0.1 --chunk_size=2000 --ra_lambda=5.0
 ```
 
