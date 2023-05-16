@@ -7,6 +7,7 @@ The stability-plasticity dilemma is a major challenge in continual learning, as 
   <img src="https://github.com/haneol0415/recall-oriented-cl-framework/assets/61872888/f547bb26-916b-4cf9-98ca-0ff1ba83d229">
 </p>
 
+![GAMM_framework-1](https://github.com/haneol0415/recall-oriented-cl-framework/assets/61872888/f547bb26-916b-4cf9-98ca-0ff1ba83d229)
 
 ## Experiment Command
 This repository currently contains experiments reported in the paper for Split CIFAR-10, Split CIFAR-100, Permuted MNIST, 5-Datasets.
