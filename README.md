@@ -1,6 +1,6 @@
 # Recall-Oriented-CL-Framework
 <p align="center">
-  <img src="![GAMM_framework-1](https://github.com/haneol0415/recall-oriented-cl-framework/assets/61872888/f547bb26-916b-4cf9-98ca-0ff1ba83d229">
+  <img src="https://github.com/haneol0415/recall-oriented-cl-framework/assets/61872888/f547bb26-916b-4cf9-98ca-0ff1ba83d229">
 </p>
 
 
