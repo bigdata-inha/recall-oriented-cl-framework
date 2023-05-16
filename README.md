@@ -15,17 +15,17 @@ python main.py --dataset='cifar10' --nb_cl_f=2 --nb_cl=2 --ts_epochs=120 --ts_lr
 python main.py --dataset='cifar100' --nb_cl_f=10 --nb_cl=10 --ts_epochs=250 --ts_lr=0.1 --lr_factor=0.1 --chunk_size=25000  --ra_lambda=15.0
 ```
 
-###Split CIFAR-100 using 5-layer AlexNet
+### Split CIFAR-100 using 5-layer AlexNet
 ```python
 python main.py --dataset='cifar100_alexnet' --nb_cl_f=10 --nb_cl=10 --ts_epochs=160 --ts_lr=0.1 --lr_factor=0.1 --chunk_size=25000  --ra_lambda=10.0
 ```
 
-###Permuted MNIST
+### Permuted MNIST
 ```python
 python main_pmnist.py 
 ```
 
-###5-Datasets
+### 5-Datasets
 ```python
 python main_fivedatasets.py
 ```
