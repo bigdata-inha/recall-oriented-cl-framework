@@ -31,3 +31,7 @@ python main_pmnist.py
 ```python
 python main_fivedatasets.py
 ```
+
+```
+python3 train_resnet_bbb.py --kl_scale=0 --kl_schedule=0 --regularizer=mse --train_sample_size=1 --val_sample_size=1 --momentum=-1 --chmlp_chunk_size=7000 --beta=50 --cl_scenario=3 --split_head_cl3 --num_tasks=5 --num_classes_per_task=2 --batch_size=32 --epochs=40 --lr=0.0005 --use_adam --clip_grad_norm=-1 --net_type=resnet --resnet_block_depth=5 --resnet_channel_sizes=16,16,32,64 --hnet_type=chunked_hmlp --hmlp_arch= --cond_emb_size=16 --chunk_emb_size=16 --hnet_net_act=sigmoid --std_normal_temb=0.01 --std_normal_emb=1.0 --mean_only
+```
