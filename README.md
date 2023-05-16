@@ -35,3 +35,7 @@ python main_pmnist.py
 ```
 python main_fivedatasets.py
 ```
+
+### Requirements
+python 3.8.5
+pytorch 1.12.0
